@@ -12,7 +12,7 @@
    ========================================================================== */
 
 html {
-  color: #222;
+  color: #02bdff;
   font-size: 1em;
   line-height: 1.4;
 }
@@ -28,12 +28,12 @@ html {
  */
 
 ::-moz-selection {
-  background: #b3d4fc;
+  background: #ffc100;
   text-shadow: none;
 }
 
 ::selection {
-  background: #b3d4fc;
+  background: #ff9000;
   text-shadow: none;
 }
 
@@ -45,7 +45,7 @@ hr {
   display: block;
   height: 1px;
   border: 0;
-  border-top: 1px solid #ccc;
+  border-top: 1px solid #ff0000;
   margin: 1em 0;
   padding: 0;
 }
@@ -259,5 +259,12 @@ textarea {
   h3 {
     page-break-after: avoid;
   }
+
+  #koala1 {
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+  }
+
 }
 
