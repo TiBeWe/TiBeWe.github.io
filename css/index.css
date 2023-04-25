@@ -1,0 +1,60 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.titel {
+  position: absolute;
+  top: 10rem;
+  color: #187ea4;
+  font-size: 10rem;
+  font-weight: bold;
+  margin-bottom: 2.5rem;
+}
+
+.image {
+  height: auto;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+}
+
+nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 1rem;
+  background-color: #a1ddf3;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  display: block;
+  padding: 10px;
+}
+
+.logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 5%;
+  height: auto;
+}
+
+body {
+  background-color: rgba(195, 236, 255, 0.57);
+}
+
