@@ -69,45 +69,58 @@ main {
   flex-wrap: wrap;
 }
 
-.left, .right {
+.textblockMitarbeiter, .Preise {
   padding: 10px;
   box-sizing: border-box;
 }
 
-.left {
+.textblockMitarbeiter {
   flex: 1;
+  color: #187ea4;
 }
 
-.right {
+.Preise {
   flex: 1;
   text-align: center;
+  color: rgb(24, 126, 164);
 }
+
+.ListePreise {
+  list-style-type: none;
+}
+
+span {
+  padding-left: 60px;
+}
+
 
 footer {
   display: flex;
   flex-wrap: wrap;
 }
 
-.left {
+.textblockMitarbeiter {
   flex: 1;
 }
 
-.right {
+.Preise {
   flex: 1;
   text-align: center;
+  width: 30%;
 }
 
-/* Media Queries */
+
 @media (min-width: 768px) {
   header {
     display: flex;
     justify-content: flex-end;
   }
 
-  .textblock {
+  .textblockWillkommen {
     width: 30%;
-    hight: 10%;
-    padding-right: 10px;
+    padding-right: 1rem;
+    margin-right: 50rem;
+    color: #187ea4;
   }
 
   main {
