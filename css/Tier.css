@@ -1,27 +1,82 @@
+@media (max-width: 750px) {
+  .section {
+    flex-wrap: wrap;
+    display: flex;
+    padding: 1rem;
+    box-sizing: border-box;
+    background-color: #eee;
+    margin-top: 3rem;
+    margin-left: 1rem;
+  }
+
+  .section1 {
+    flex-wrap: wrap;
+    display: flex;
+    padding: 1rem;
+    box-sizing: border-box;
+    background-color: #eee;
+    margin-top: 3rem;
+    margin-left: 1rem;
+  }
+}
+
+@media (min-width: 750px) {
+  .section {
+    flex-basis: calc(33.33% - 20px);
+    flex-wrap: wrap;
+    display: flex;
+    padding: 1rem;
+    box-sizing: border-box;
+    background-color: #eee;
+    margin-top: 3rem;
+    margin-left: 1rem;
+  }
+
+  .section1 {
+    flex-basis: calc(33.33% - 20px);
+    flex-wrap: wrap;
+    display: flex;
+    padding: 1rem;
+    box-sizing: border-box;
+    background-color: #eee;
+    margin-left: 1rem;
+  }
+}
+
+
+header {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
 .container {
   display: flex;
   justify-content: center;
   align-items: flex-start;
   flex-wrap: wrap;
+  margin-left: auto;
+  width: 50em;
 }
 
+.left1 {
+  width: 20em;
+  float: left;
+}
 
 .titel {
-  position: absolute;
   top: 10rem;
   left: 0;
   color: #187ea4;
-  font-size: 10rem;
+  font-size: 5rem;
   font-weight: bold;
+  text-align: left;
+  margin-top: 2.3em;
 }
 
-.image2 {
+.leftpic {
   height: auto;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  max-width: 23%;
-  margin-bottom: 1rem;
+  max-width: 100%;
   margin-left: 2rem;
 }
 
@@ -33,27 +88,30 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  max-width: 5%;
+  max-width: 100px;
+  width: 100%;
   height: auto;
 }
 
-.image {
-  max-width: 25%;
+.toppic {
+  max-width: 400px;
+  width: 100%;
   height: auto;
-  position: absolute;
   top: 0;
   left: 50%;
-  transform: translateX(-50%);
-  margin-bottom: 20rem;
+  transform: translateX(25%);
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 nav {
-  position: absolute;
   top: 0;
   right: 0;
   font-size: 1rem;
   background-color: #a1ddf3;
   padding: 1rem;
+  width: 15em;
+  position: absolute;
 }
 
 nav ul {
@@ -72,17 +130,9 @@ nav a {
 }
 
 
-.section {
-  flex-basis: calc(33.33% - 20px);
-  padding: 1rem;
-  box-sizing: border-box;
-  background-color: #eee;
-  margin-bottom: -30rem;
-  margin-top: 34rem;
-  margin-left: 1rem;
-}
 
-.section h2 {
+
+.section h2, .section1 h2 {
   margin-top: 0;
   color: #886161;
 }
